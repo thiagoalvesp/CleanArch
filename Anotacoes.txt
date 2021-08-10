@@ -1,0 +1,6 @@
+Implementar 
+
+Finalizar o MVC
+
+CQRS
+Mediart
