@@ -44,8 +44,9 @@ namespace CleanArch.MVC.Controllers
 
                 return RedirectToAction(nameof(Index));
             }
-            catch
+            catch(Exception ex)
             {
+
                 return View(productVM);
             }
         }

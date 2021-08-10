@@ -25,7 +25,7 @@ namespace CleanArch.Infra.Data.Repositories
         public async Task<IEnumerable<Product>> GetProducts() => await _context.Products.ToListAsync();
 
         public void Add(Product product)
-        {
+        {  
             _context.Add(product);
             _context.SaveChanges();
         }
